@@ -67,7 +67,7 @@ function updateRecord(){
         method:"PATCH",
         headers:{
             "content-type": 'application/json',
-            accepts: 'application/json'
+            accept: 'application/json'
         },
         body: JSON.stringify(dataObj)
       })
